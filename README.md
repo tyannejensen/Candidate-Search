@@ -1,33 +1,45 @@
-# React + TypeScript + Vite
+# Candidate Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description:
 
-Currently, two official plugins are available:
+This is a canidate search application.
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+## Table Of Contents:
 
-## Expanding the ESLint configuration
+1. [Installation](#Installation)
+2. [Usage](#Usage)
+3. [Guidelines](#Guidelines)
+4. [License](#License)
+5. [Contributing](#Contributing)
+6. [Tests](#Tests)
+7. [Questions](#Questions)
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Installation:
 
-* Configure the top-level `parserOptions` property as follows:
+npm install to get all the node packages, and then you would run npm dev
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Usage:
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+As an employer, I want a candidate search application so that I can hire the best candidates, given a candidate search application when teh candidate search page loads, tehn the information for one candadate should display their name, username and email. When I click on the + button then the candidate should be saved to the list of potential candidates and the next candidates available to review.
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Guidelines:
+
+## License
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+## Contributing:
+
+Feel free to add in any way you would like.
+
+## Tests:
+
+However you would like.
+
+## Questions:
+
+Here is the developers details in case you have any questions.
+
+Email: tyanne.codes@gmail.com
+
+Username: tyannejensen
